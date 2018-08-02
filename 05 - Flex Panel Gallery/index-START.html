@@ -134,7 +134,7 @@
     }
 
     panels.forEach(panel => panel.addEventListener('click', toggleOpen));
-    panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+    panels.forEach(panel => panel.addEventListener('transitionend', toggleActive)); //if I want to automatically close a panel if I open a new one, how do I call any open panel? ideas: if statment, close open panel and open the new one.
 
 
   </script>
